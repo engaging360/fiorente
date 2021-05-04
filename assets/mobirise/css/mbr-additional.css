@@ -1814,7 +1814,7 @@ a {
   overflow: hidden;
   padding-top: 135px;
   padding-bottom: 0px;
-  background-color: #ebebec;
+  background-image: url("../../../assets/images/section-1-image-2000x1129.jpg");
 }
 .cid-swqjDCtAyi .badge {
   display: inline-block;
@@ -1964,7 +1964,7 @@ a {
   }
 }
 .cid-swpYDqDvPz {
-  padding-top: 5rem;
+  padding-top: 2rem;
   padding-bottom: 5rem;
   background-color: #ffffff;
 }
@@ -2017,9 +2017,14 @@ a {
   color: #303644;
 }
 .cid-swqii4lhXX {
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   background-color: #37858f;
+}
+.cid-swqii4lhXX .row {
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 .cid-swqii4lhXX .card-box {
   padding: 0rem;
@@ -2040,19 +2045,30 @@ a {
   object-fit: cover;
 }
 .cid-swqii4lhXX .card-wrapper {
-  padding: 2rem;
+  padding: 0rem;
   width: 100%;
+  background-color: #ebebec;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.cid-swqii4lhXX .card-wrapper:hover {
+  background-color: #41ba7d;
 }
 @media (min-width: 1400px) {
   .cid-swqii4lhXX .card-wrapper {
-    padding: 4rem;
+    padding: 4.6rem;
   }
 }
 .cid-swqii4lhXX .card-title {
-  color: #ffffff;
+  color: #303644;
+}
+@media (max-width: 767px) {
+  .cid-swqii4lhXX .card-wrapper {
+    padding: 2rem;
+    font-size: 80%;
+  }
 }
 .cid-swq1pQsHFj {
-  padding-top: 30px;
+  padding-top: 60px;
   padding-bottom: 30px;
   background-color: #ffffff;
 }
@@ -2496,7 +2512,7 @@ a {
   color: #f36;
 }
 .cid-swq9Bd5Yff img {
-  height: 4rem;
+  height: 8rem;
   width: auto;
 }
 @media (max-width: 576px) {
@@ -2522,6 +2538,7 @@ a {
 }
 .cid-swq9Bd5Yff .text1 {
   color: #ffffff;
+  font-size: 80%;
 }
 .cid-swq9Bd5Yff .item-title {
   color: #ffffff;
@@ -2531,10 +2548,12 @@ a {
 }
 .cid-swq9Bd5Yff .theme {
   color: #ffffff;
+  font-size: 80%;
 }
 .cid-swq9Bd5Yff .copyright > p {
   color: #ff3366;
 }
 .cid-swq9Bd5Yff .text2 {
   color: #ffffff;
+  font-size: 80%;
 }
