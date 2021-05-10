@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Fiorente Advisory",
-    "currentPage": "how-we-work.html",
+    "currentPage": "fiorente-insights.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -6358,26 +6358,19 @@
           "alias": "deltapi-code-editor",
           "_isSecondary": true,
           "_styles": {
-            "padding-top": "(@paddingTop * 25px)",
+            "padding-top": "(@paddingTop * 35px)",
             "padding-bottom": "(@paddingBottom * 10px)",
-            "background-color": "@bgColor",
-            ".iframe-container": {
-              "overflow": "hidden",
-              "padding-top": "56.25%",
-              "position": "relative"
-            },
-            ".iframe-container iframe": {
-              "border": "0",
-              "height": "100%",
-              "left": "0",
-              "position": "absolute",
-              "top": "0",
-              "width": "100%"
+            "background-color": "@primaryColor",
+            "@media (max-width: 991px)": {
+              "padding-top": "85px",
+              ".embed-responsive": {
+                "height": "726px !important"
+              }
             }
           },
           "_name": "custom-html",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"embed-responsive embed-responsive-1by1\">\n    <iframe class=\"embed-responsive-item\" src=\"https://fiorenteadvisory.blogspot.com/\" allowfullscreen></iframe>\n    </div>\n</section>",
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"embed-responsive embed-responsive-1by1\">\n    <iframe class=\"embed-responsive-item\" src=\"https://fiorenteadvisory.blogspot.com/\" allowfullscreen></iframe>\n    </div>\n</section>",
           "_cid": "swZlQVOuLr",
           "_anchor": "custom-html-1m",
           "_PHPplaceholders": [],
@@ -7724,7 +7717,8 @@
               "align-items": "center",
               "position": "relative",
               "@media (max-width: 768px)": {
-                "margin-right": "1rem"
+                "margin-right": "-1rem",
+                "z-index": "1"
               }
             },
             ".text-box": {
@@ -7769,7 +7763,8 @@
                 "min-width": "20% !important",
                 "height": "20%",
                 "span": {
-                  "font-size": "90% !important"
+                  "font-size": "1rem !important",
+                  "line-height": "3.3rem"
                 },
                 "& when (@showArrows)": {
                   "&::before": {
