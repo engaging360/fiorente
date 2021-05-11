@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Fiorente Advisory",
-    "currentPage": "about-us.html",
+    "currentPage": "fiorente-insights.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -6362,7 +6362,7 @@
             "padding-bottom": "(@paddingBottom * 10px)",
             "background-color": "@primaryColor",
             "@media (max-width: 991px)": {
-              "margin-top": "25px",
+              "margin-top": "35px",
               ".embed-responsive": {
                 "position": "relative",
                 "height": "726px !important"
@@ -6379,7 +6379,7 @@
           },
           "_name": "custom-html",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"embed-responsive embed-responsive-1by1\">\n    <iframe class=\"embed-responsive-item\" src=\"https://fiorenteadvisory.blogspot.com/\" allowfullscreen></iframe>\n    </div>\n</section>",
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"embed-responsive embed-responsive-1by1\">\n    <iframe class=\"embed-responsive-item\" src=\"https://fiorenteadvisory.blogspot.com/\" allowfullscreen></iframe>\n    </div>\n</section>",
           "_cid": "swZlQVOuLr",
           "_anchor": "custom-html-1m",
           "_PHPplaceholders": [],
