@@ -6362,15 +6362,25 @@
             "padding-bottom": "(@paddingBottom * 10px)",
             "background-color": "@primaryColor",
             "@media (max-width: 991px)": {
-              "padding-top": "85px",
+              "margin-top": "25px",
               ".embed-responsive": {
-                "height": "726px !important"
+                "position": "relative",
+                "overflow": "hidden",
+                "padding-top": "56.25%"
+              },
+              ".embed-responsive-item": {
+                "position": "absolute",
+                "top": "0",
+                "left": "0",
+                "width": "100%",
+                "height": "726px !important",
+                "border": "0"
               }
             }
           },
           "_name": "custom-html",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"embed-responsive embed-responsive-1by1\">\n    <iframe class=\"embed-responsive-item\" src=\"https://fiorenteadvisory.blogspot.com/\" allowfullscreen></iframe>\n    </div>\n</section>",
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"embed-responsive embed-responsive-1by1\">\n    <iframe class=\"embed-responsive-item\" src=\"https://fiorenteadvisory.blogspot.com/\" allowfullscreen></iframe>\n    </div>\n</section>",
           "_cid": "swZlQVOuLr",
           "_anchor": "custom-html-1m",
           "_PHPplaceholders": [],

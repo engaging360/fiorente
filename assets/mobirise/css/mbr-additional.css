@@ -6319,16 +6319,26 @@ a {
   color: #303644;
 }
 .cid-swZlQVOuLr {
-  padding-top: 210px;
+  padding-top: 140px;
   padding-bottom: 40px;
   background-color: #303644;
 }
 @media (max-width: 991px) {
   .cid-swZlQVOuLr {
-    padding-top: 85px;
+    margin-top: 25px;
   }
   .cid-swZlQVOuLr .embed-responsive {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+  }
+  .cid-swZlQVOuLr .embed-responsive-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 726px !important;
+    border: 0;
   }
 }
 .cid-swZRSgRbUo {
