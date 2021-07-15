@@ -72,7 +72,7 @@
     "witsec-white-label": true,
     "witsec-mailform": false,
     "pwa-switcher": false,
-    "uniqCompNum": 131,
+    "uniqCompNum": 132,
     "versionPublish": "5.3.10",
     "screenshot": "screenshot.png",
     "dppsSwitcher": true,
@@ -6368,28 +6368,18 @@
             "padding-bottom": "(@paddingBottom * 10px)",
             "background-color": "@primaryColor",
             "@media (max-width: 991px)": {
-              "margin-top": "35px",
-              ".embed-responsive": {
-                "position": "relative",
-                "height": "726px !important"
-              },
-              ".embed-responsive-item": {
-                "position": "absolute",
-                "top": "0",
-                "left": "0",
-                "width": "100%",
-                "height": "100%",
-                "border": "0"
-              }
+              "margin-top": "35px"
             }
           },
           "_name": "custom-html",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"embed-responsive embed-responsive-1by1\">\n    <iframe class=\"embed-responsive-item\" src=\"https://fiorenteadvisory.blogspot.com/\" allowfullscreen></iframe>\n    </div>\n</section>",
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    [JS_CODE_0]\n<div class=\"elfsight-app-d69b8736-635b-4799-aacf-3271d246f24e\"></div>\n</section>",
           "_cid": "swZlQVOuLr",
           "_anchor": "custom-html-1m",
           "_PHPplaceholders": [],
-          "_JSplaceholders": [],
+          "_JSplaceholders": [
+            "<script src=\"https://apps.elfsight.com/p/platform.js\" defer></script>"
+          ],
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -10722,11 +10712,11 @@
             }
           },
           "_cid": "sD0IkB0Ej5",
+          "_anchor": "contacts05-3m",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "contacts05-3m"
+          "_params": {}
         },
         {
           "alias": false,
@@ -10774,11 +10764,11 @@
           "_sourceTheme": "mobirise5",
           "_customHTML": "<section class=\"map3\" group=\"Maps\">\n    \n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"map\" title=\"Map 1\" name=\"googleMap\" place-id=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3563.268845014977!2d153.11942561504125!3d-26.735795583204027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b939fde47455ba9%3A0xf8cc897423b979e9!2sFiorente%20Advisory!5e0!3m2!1sen!2sau!4v1620698974013!5m2!1sen!2sau&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot;></iframe>\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3563.268845014977!2d153.11942561504125!3d-26.735795583204027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b939fde47455ba9%3A0xf8cc897423b979e9!2sFiorente%20Advisory!5e0!3m2!1sen!2sau!4v1620698974013!5m2!1sen!2sau&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot;></iframe>\">\n        <input type=\"map\" title=\"Map 2\" name=\"googleMap2\" place-id=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.2785863671756!2d146.72736921542779!3d-19.313713924428818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6bd5f09782168307%3A0xded6b0ad20e2031d!2s29%20Thuringowa%20Dr%2C%20Kirwan%20QLD%204817!5e0!3m2!1sen!2sau!4v1626146632650!5m2!1sen!2sau&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot;></iframe>\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.2785863671756!2d146.72736921542779!3d-19.313713924428818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6bd5f09782168307%3A0xded6b0ad20e2031d!2s29%20Thuringowa%20Dr%2C%20Kirwan%20QLD%204817!5e0!3m2!1sen!2sau!4v1626146632650!5m2!1sen!2sau&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot;></iframe>\">\n         <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block of parameters -->\n    </mbr-parameters>\n    \n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class mbr-class=\"{'container' : !fullWidth, 'container-fluid' : fullWidth}\">\n        <div class=\"row\">\n            <div class=\"col-12\">\n                <h3 class=\"mbr-section-title mb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>Our Locations</b></h3>\n            </div>\n            <div class=\"col-12 col-lg-6\">\n                <h4 class=\"mbr-section-subtitle mb-3 align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Head Office</h4>\n                <div class=\"google-map\" mbr-map=\"googleMap\"></div>\n            </div>\n            <div class=\"col-12 col-lg-6\">\n                <h4 class=\"mbr-section-subtitle mb-3 mt-5 mt-lg-0 align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Townsville</h4>\n                <div class=\"google-map\" mbr-map=\"googleMap2\"></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sD0HdYEpkq",
+          "_anchor": "map3-3l",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "map3-3l"
+          "_params": {}
         },
         {
           "_name": "extFeatures49",
