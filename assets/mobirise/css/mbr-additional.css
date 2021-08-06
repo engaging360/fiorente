@@ -8668,9 +8668,9 @@ a {
   text-align: right;
 }
 .cid-sx3FNkIPow {
-  padding-top: 135px;
-  padding-bottom: 135px;
-  background-image: url("../../../assets/images/fiorente-team-about-2000x1125.png");
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: url("../../../assets/images/section-1-image-2000x1129.jpg");
   background-position: right;
 }
 .cid-sx3FNkIPow .wrapper {
@@ -8708,6 +8708,13 @@ a {
   .cid-sx3FNkIPow .wrapper {
     padding: 1rem 1.5rem;
   }
+}
+.cid-sx3FNkIPow H1 {
+  text-align: left;
+}
+.cid-sx3FNkIPow .mbr-text,
+.cid-sx3FNkIPow .mbr-section-btn {
+  text-align: left;
 }
 .cid-sx3JcCYH1g {
   padding-top: 90px;
